@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Test.css">
+    <style>
+        .button {
+            background-color: rgb(252, 252, 252);
+            color: rgb(3, 3, 3);
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: gray;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color:rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <button id="bntyoutube" class="button">
+        Youtube
+        </button>
+        <script>
+            const button = document.getElementById("bntyoutube");
+            button.addEventListener("click", function() {
+                window.location.href = "https://www.youtube.com/";
+            });
+            </script>
+<button id="bntgithub" class="button">
+    GitHub
+</button>
+
+<script>
+    const buttonGitHub = document.getElementById("bntgithub");
+    buttonGitHub.addEventListener("click", function() {
+        window.location.href = "https://github.com/";
+    });
+</script>
+<button id="bntgoogle" class="button">
+    Google
+</button>
+<script>
+    const buttonGoogle = document.getElementById("bntgoogle");
+    buttonGoogle.addEventListener("click", function() {
+        window.location.href = "https://www.google.com/";
+    });
+</script>
+
+    <h1>Test</h1>
+    <h2>Test</h2>
+    <h3>Test</h3>
+    <h4>Test</h4>
+    <h5>Test</h5>
+</body>
+</html>
