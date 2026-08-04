@@ -25,19 +25,5 @@ Ideal para quem quer **aprender, ensinar ou apenas guardar snippets** de código
 | **HTML**   | 5.3    | Estrutura semântica e acessível |
 | **CSS**    | 3.1 / SCSS | Estilização moderna com Flexbox, Grid e variáveis |
 | **JavaScript** | ES6+ | Lógica reativa, modular e assíncrona |
-| **Ferramentas** | — | VS Code, Git, Node.js (opcional) |
 
 ---
-
-## 📂 Estrutura do Repositório
-
-```text
-HTML-Testes/
-│
-├── css/                 # Arquivos de estilo e variáveis globais
-├── js/                  # Scripts e módulos JavaScript
-├── html/                # Páginas e componentes HTML
-├── assets/              # Imagens, ícones e fontes
-├── tests/               # Casos de teste e exemplos isolados
-├── docs/                # Documentação e guias
-└── README.md            # Este arquivo
